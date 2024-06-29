@@ -459,16 +459,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
             InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
-        ], [
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
-        ], [
-            InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
-        ], [
-            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
-        ], [
-            InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd')
+            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),                                                         
+            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')                    
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
