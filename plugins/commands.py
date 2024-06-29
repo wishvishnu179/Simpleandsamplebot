@@ -258,7 +258,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 updates channel 🔰', url='https://t.me/+k1Qmq23J-Ww4NDJl') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
